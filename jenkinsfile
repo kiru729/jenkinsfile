@@ -13,7 +13,7 @@ stages{
   }
   stage('jenkins build alerts'){
    steps{
-  slackSend(channel: '#jenkinsdeploy', color: '#009933', message: 'First job build sucessful', teamDomain: 'devops',
+  slackSend(channel: '#jenkinsdeploy', color: '#009933', message: '1st job build sucessful', teamDomain: 'devops',
   tokenCredentialId: 'NISBcxS6s0Di0xBJeTjLGdaM')
   }
   }
